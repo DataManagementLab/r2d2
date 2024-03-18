@@ -1,0 +1,6 @@
+slicer,merger,accuracy,recall
+lib.slice.ColWiseSlicer,lib.merge.ClosureMerger,0.245,0.47525
+lib.slice.DivisiveSlicer,lib.merge.ClosureMerger,0.315,0.5098563372000534
+lib.slice.DivisiveSlicer,lib.merge.NoMerger,0.12,0.20567549083053252
+lib.slice.NoSlicer,lib.merge.ClosureMerger,0.075,0.065
+lib.slice.RowWiseSlicer,lib.merge.ClosureMerger,0.29,0.3832649004291458

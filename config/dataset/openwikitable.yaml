@@ -1,0 +1,6 @@
+name: "openwikitable"
+
+url: "https://github.com/sean0042/Open_WikiTable"
+
+shuffle_rows_and_cols: true
+large_tables: 300  # null means include all tables

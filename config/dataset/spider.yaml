@@ -1,0 +1,9 @@
+name: "spider"
+
+# We split the original Spider partitions as follows:
+# original train set ==> train set | validation set
+# original dev set ==> test set
+
+num_val_lakes: 100  # the number of databases that should be part of "our" validation set
+
+shuffle_rows_and_cols: true
