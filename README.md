@@ -1,4 +1,31 @@
-# R2D2: Rethinking Table Retrieval from Data Lakes
+# Rethinking Table Retrieval from Data Lakes
+
+*Table retrieval from data lakes has recently become important for many downstream tasks, including data discovery and
+table question answering. Existing table retrieval approaches estimate each table's relevance to a particular
+information need and return a ranking of the most relevant tables. This approach is not ideal since (1) the returned
+tables often include irrelevant data and (2) the required information may be scattered across multiple tables. To
+address these issues, we propose the idea of fine-grained structured table retrieval and present our vision of R2D2, a
+system which slices tables into small tiles that are later composed into a structured result that is tailored to the
+user-provided information need. An initial evaluation of our approach demonstrates how our idea can improve table
+retrieval and relevant downstream tasks such as table question answering.*
+
+Please check out our [paper](https://doi.org/10.1145/3663742.3663972) and cite our work:
+
+```bibtex
+@inproceedings{DBLP:conf/aidm/BodensohnB24,
+    author       = {Jan{-}Micha Bodensohn and
+                  Carsten Binnig},
+    title        = {Rethinking Table Retrieval from Data Lakes},
+    booktitle    = {Proceedings of the Seventh International Workshop on Exploiting Artificial
+                  Intelligence Techniques for Data Management, aiDM 2024, Santiago,
+                  Chile, 14 June 2024},
+    pages        = {2:1--2:5},
+    publisher    = {{ACM}},
+    year         = {2024},
+    url          = {https://doi.org/10.1145/3663742.3663972},
+    doi          = {10.1145/3663742.3663972}
+}
+```
 
 ## Setup
 
